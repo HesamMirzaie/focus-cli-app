@@ -90,8 +90,8 @@ interface SessionData {
 }
 
 /* ---------- PRETTY BOX ---------- */
-const prettyBox = (text: string, colour: (s: string) => string) =>
-  colour(box.round + text + box.round);
+const prettyBox = (text: string, color: (s: string) => string) =>
+  color(box.round + text + box.round);
 
 /* ---------- HISTORY ---------- */
 async function showHistory(): Promise<void> {
