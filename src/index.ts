@@ -136,7 +136,7 @@ async function startTimer(): Promise<void> {
         p.select({
           message: "How long is the session?",
           options: [
-            { value: 0.1, label: "6s Speed Test" },
+            { value: 10, label: "10 min Basic Focus" },
             { value: 25, label: "25 min Pomodoro" },
             { value: 50, label: "50 min Deep Work" },
           ],
