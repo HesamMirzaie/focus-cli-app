@@ -1,0 +1,30 @@
+{
+  "name": "focus-flow",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "bin": {
+    "focus": "./dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts"
+  },
+  "author": "Hesam Mirzaee",
+  "license": "MIT",
+  "description": "This is a promodoro timer for the command line.",
+  "dependencies": {
+    "@clack/prompts": "^1.0.1",
+    "cli-boxes": "^4.0.1",
+    "gradient-string": "^3.0.0",
+    "node-notifier": "^10.0.1",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/gradient-string": "^1.1.6",
+    "@types/node": "^25.3.0",
+    "@types/node-notifier": "^8.0.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
